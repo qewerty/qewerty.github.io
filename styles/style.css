@@ -1,0 +1,67 @@
+
+html {
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	background-color: #00539f;
+	
+}
+
+body {
+	width: 800px;
+	margin: 5% auto;
+	background-color: #ff9500;
+	padding: 0 20px 20px 20px;
+	border: 3px solid #555;
+	border-radius: 16px;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #00539f;
+	text-shadow: 2px 2px 3px black;
+}
+
+button {
+	border-radius: 8px;
+	border: 0;
+	padding: 10px;
+	background-color: #aaa;
+	min-width: 140px;
+}
+
+button:hover {
+	background-color: #bbb
+}
+
+button:active {
+	background-color: #999
+}
+
+p,
+li {
+  font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 16px;
+	box-shadow: 3px 3px 3px #555;
+}
+
+#weird {
+	color: green
+}
+
+.foo {
+	color: purple
+}
+
+p[class]:hover {
+	color: yellow
+}
